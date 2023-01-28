@@ -5,5 +5,13 @@ for(var i = 0; i < numbers.length; i++){
     if(number >50){
         continue;
     }
-    console.log(number);
+    // console.log(number);
  }
+
+ var marks = [ 13, 15, 14, 20, 18];
+for(var i=0; i<marks.length; i++){
+  if(marks[i] >=15){
+    continue;
+  }
+  console.log(marks[i]);
+};
